@@ -1,0 +1,253 @@
+/* .grid{
+    background-color: #c7c0c0;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows:50px auto ;
+    gap: 15px;
+    margin: 10px auto;
+    
+    
+}
+.grid div{
+    background-color: #4b6877;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.one::before{
+    content: "Element 1";
+}
+
+.two::before{
+    content: "Element 2";
+}
+.three::before{
+    content: "Element 3";
+}
+.four::before{
+    content: "Element 4";
+}
+.five::before{
+    content: "Element 5";
+}
+.six::before{
+    content: "Element 6";
+} */
+
+/* 
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.layout{
+    
+    
+    
+    height: 100vh;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: 50px auto 50px;
+
+}
+header{
+    background-color: rgb(50, 50, 160);
+    grid-column: 4 span;
+}
+section{
+    background-color: chocolate;
+    grid-column: 3 span;
+
+}
+aside{
+    background-color: yellow;
+}
+footer{
+    background-color: rgb(65, 110, 19);
+    grid-column: 4 span;
+/* 
+/* 
+.grid{
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(2,auto) ;
+    grid-template-rows: repeat(9,30px);
+    gap: 15px;
+    text-align: center;
+}
+
+div{
+    background-color:red ;
+
+}
+.m3,.m4{
+    grid-row: 9;
+}
+
+ */
+
+
+
+
+
+
+/* 
+.green,.red,.blue,.black{
+    width: 100px;
+    height: 100px;
+}
+
+.green{
+    position: absolute;
+    background-color: green;
+    top: 40px;
+    left: 40px;
+    z-index: 4;
+}
+
+.red{
+    position: absolute;
+    background-color: red;
+    top: 60px;
+    left: 60px;
+    z-index: 5;
+}
+
+.blue{
+    position: absolute;
+    background-color: blue;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+}
+
+.black{
+    position: absolute;
+    background-color: black;
+    top: 40px;
+    left: 20px;
+    z-index: 2;
+    
+} */
+/* 
+*{
+    padding: 0;
+    margin: 0;
+} */
+/* 
+.html{
+    background-color: #bebcbc;
+    width: 400px;
+    height: 100px;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+.html li{
+    background-color: aliceblue;
+    padding: 2px;
+    margin: 3px;
+}
+
+
+.css{
+    background-color: #bebebe;
+    width: 400px;
+    height: 100px;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+.css li{
+    background-color: aliceblue;
+    padding: 2px;
+    margin: 3px;
+}
+
+.js{
+    background-color: #bbb9b9;
+    width: 400px;
+    height: 100px;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+}
+.js li{
+    background-color: aliceblue;
+    padding: 2px;
+    margin: 3px;
+}  */
+/* 
+
+div{
+    width: 300px;
+    height: 50px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 20px auto;
+    
+}
+
+div::before{
+    content: "1";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 20px;
+    height: 40px;
+    background-color: rgb(245, 21, 21);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+p{
+    background-color: #ddd;
+    width: 300px;
+    height: 20px;
+    padding: 10px 20px;
+    position: relative;
+    margin: 20px auto;
+}
+p::after{
+    content: "";
+    width: 4px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+p::before{
+    
+    content: "1";
+    position: absolute;
+    top: 1px;
+    left: -10px;
+    width: 20px;
+    height: 40px;
+    background-color: rgb(245, 21, 21);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
