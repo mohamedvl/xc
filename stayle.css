@@ -244,10 +244,11 @@ p::before{
     left: -10px;
     width: 20px;
     height: 40px;
-    background-color: rgb(245, 21, 21);
+    background-color: rgb(168, 22, 22);
     color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
